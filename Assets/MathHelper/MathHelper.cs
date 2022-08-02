@@ -76,7 +76,7 @@ public static class MathHelper
         return new Vector3(xPos, yPos, zPos);
     }
 
-    public static Vector3 PointAtCircumferenceXZ(Vector3 center, float radius)
+    public static Vector3 RandomPointAtCircumferenceXZ(Vector3 center, float radius)
     {
         float theta = RandomBet(max: 360f);
         float opposite = radius * Mathf.Sin(theta);
